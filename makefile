@@ -4,6 +4,6 @@ all:server client show_ip
 	$(CC) $^ -o $@
 
 clean:
-	rm -rf -f server client show_ip
+	rm  -f server client show_ip
 
 
