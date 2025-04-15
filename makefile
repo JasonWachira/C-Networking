@@ -1,7 +1,6 @@
 CC= gcc
+all:server client show_ip 
+%:%.c
+	$(CC) $^ -o $@
 
-all:show_ip
-
-show_ip: show_ip.c
-	$(CC) -o show_ip show_ip.c
 
